@@ -219,7 +219,7 @@ jobs:
       - name: Install rust toolchain
         uses: actions-rs/toolchain@v1
       - name: Install lld
-        uses: knicknic/os-specific-run@v1.0.3
+        uses: knicknic/os-specific-run@v1.0.4
         with:
           linux: sudo apt-get -y install lld
       - name: Use Node.js 14
